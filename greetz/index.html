@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<style type="text/css">
+		.huge-red {
+			color: red !important;
+			text-shadow: 4px 4px 12px rgba(0,0,0,0.7) !important;
+			font-size: 120px !important;
+			background-color: rgba(0,0,0,0.7) !important;
+		}
+		.cover-block {
+			background-color: rgba(0,0,0,0.7) !important; 
+			padding: 40px 0 30px !important;
+		}
+		a {
+			color: white !important;
+		}
+		</style>
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background="images/iphone.gif" style="background-opacity: 0.5;">
+					<div class="cover-block">
+						<h1>Team iPhone</h1>
+						<h2>Mobile week</h2>
+						<h4>Carolien, Linda B, Berry, Ellen van H, Hugo</h4>
+					</div>
+				</section>
+				<section>
+					<h2>Challenge</h2>
+					<blockquote>
+						&ldquo;Welke stap in de flow zou jij willen aanpakken en hoe zou deze worden?&rdquo;
+					</blockquote>
+				</section>
+				<section>
+					<section data-background="images/data.gif">
+						<h1>Data</h1>
+					</section>
+					<section>
+						<h2>De cijfers</h2>
+						<img src="images/numbers.png"/>
+					</section>
+					<section>
+						<h2>Onze focus</h2>
+						<img src="images/numbers_blur.png"/>
+					</section>
+				</section>
+				<section>
+					<section data-background="images/screen1.png" data-background-size="contain">
+						<div class="fragment fade-in">
+							<h1 class="huge-red">13,26%</h1>
+						</div>
+					</section>
+					<section data-background="images/screen2.png" data-background-size="contain">
+						<div class="fragment fade-in">
+							<h1 class="huge-red">1,29%</h1>
+						</div>
+					</section>
+					<section data-background="images/screen3.png" data-background-size="contain">
+						<div class="fragment fade-in">
+							<h1 class="huge-red">3,57%</h1>
+						</div>
+					</section>
+					<section data-background="images/screen5.png" data-background-size="contain">
+						<div class="fragment fade-in">
+							<h1 class="huge-red">8,63%</h1>
+						</div>
+					</section>
+					<section data-background="images/screen6.png" data-background-size="contain">
+						<div class="fragment fade-in">
+							<h1 class="huge-red">2,72%</h1>
+						</div>
+					</section>
+					<section data-background="images/screen7.png" data-background-size="contain"></section>
+				</section>
+				<section data-background="images/drop.gif">
+					<h1>Lost opportunity</h1>
+				</section>
+				<section data-background="images/f1.gif">
+					<div class="cover-block">
+						<h1>Streamline</h1>
+					</div>
+				</section>
+				<section>
+					<section>
+						<h2>Onze oplossing</h2>
+						<p><a target="_blank" href="http://bit.do/teamiphone">http://bit.do/teamiphone</a></p>
+					</section>
+					<section data-background="images/oplossing.png" data-background-size="contain">
+						<div class="cover-block fragment fade-in">
+							<h3>Keuze mogelijkheden op 1 pagina</h3>
+						</div>
+					</section>
+					<section>
+						<h3>Grote preview binnenkant kaart bovenaan</h3>
+						<img src="images/oplossing1.png"/>
+					</section>
+					<section>
+						<h2>Formaat kaart duidelijk zichtbaar</h2>
+						<img src="images/oplossing2.png"/>
+					</section>
+					<section>
+						<h2>Envelop inline selecteren</h2>
+						<img src="images/oplossing3.png"/>
+					</section>
+					<section>
+						<h2>Cadeau toevoegen en standaard bezorgdatum</h2>
+						<img src="images/oplossing4.png"/>
+					</section>
+					<section>
+						<h2>Doorgaan naar adressering</h2>
+						<img src="images/oplossing5.png"/>
+					</section>
+					<section data-background="images/oplossing.png" data-background-size="contain">
+						<div class="cover-block">
+							<h2>Demo</h2>
+							<p>
+								<a target="_blank" href="http://bit.do/teamiphone">http://bit.do/teamiphone</a>
+							</p>
+						</div>
+					</section>
+				</section>
+				<section data-background="images/bowling.gif">
+					<div class="cover-block">
+						<h1>Dank</h1>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
