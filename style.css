@@ -3,14 +3,14 @@ html, body {
 	height: 100%;
 }
 body {
-	background-color: #191919;
+	background-color: #1F2232;
 	margin: 0;
 	padding: 0;
 }
 h1 {
-	font-family: 'Teko', sans-serif;
-	font-size: 72pt;
-	color: #DFE2DB;
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 64pt;
+	color: #FBFEF9;
 	vertical-align: middle;
 	display: inline-block;
 	position: relative;
@@ -18,17 +18,14 @@ h1 {
 	transition: color 2.5s ease;
 }
 h1:hover {
-	color: #FFF056;
+	color: #FF6B6B;
 }
 h1 span {
-	color: #FFF056;
+	color: #FF6B6B;
 	transition: color 2.5s ease;
 }
 h1 span:hover {
-	color: #DFE2DB;
-}
-h1 strong {
-	color: #DFE2DB;
+	color: #FBFEF9;
 }
 .box {
 	display: table;
@@ -43,17 +40,17 @@ h1 strong {
 	height: 100%;
 }
 a {
-	color: #DFE2DB;
+	color: #FBFEF9;
 	padding: 10px;
 	transition: color 2.5s ease;
 }
 a:hover {
-	color: #FFF056;
+	color: #FF6B6B;
 	transition: color 0.5s ease;
 }
 ul, li {
 	list-style: none;
-	margin: 0;
+	margin: 40px 0 0;
 	padding: 0;
 }
 ul {
