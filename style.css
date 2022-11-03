@@ -1,67 +1,69 @@
-html, body {
-	min-height: 100%;
-	height: 100%;
+html,
+body {
+  min-height: 100%;
+  height: 100%;
 }
 body {
-	background-color: #1F2232;
-	margin: 0;
-	padding: 0;
+  background-color: #1f2232;
+  margin: 0;
+  padding: 0;
 }
 h1 {
-	font-family: 'Reenie Beanie', cursive;
-	font-size: 54pt;
-	color: #FBFEF9;
-	vertical-align: middle;
-	display: inline-block;
-	position: relative;
-	margin: 0 auto;
-	transition: color 2.5s ease;
+  font-family: "Reenie Beanie", cursive;
+  font-size: 54pt;
+  color: #fbfef9;
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+  transition: color 0.5s ease;
 }
 h1:hover {
-	color: #FF6B6B;
+  color: #ff6b6b;
 }
 h1 span {
-	color: #FF6B6B;
-	transition: color 2.5s ease;
+  color: #ff6b6b;
+  transition: color 0.5s ease;
 }
 h1 span:hover {
-	color: #FBFEF9;
+  color: #fbfef9;
 }
 .box {
-	display: table;
-	height: 100%;
-	width: 100%;
-	text-align: center;
+  display: table;
+  height: 100%;
+  width: 100%;
+  text-align: center;
 }
 .centered {
-	display: table-cell;
-	vertical-align: middle;
-	width: 100%;
-	height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
 }
 a {
-	color: #FBFEF9;
-	padding: 10px;
-	transition: color 2.5s ease;
+  color: #fbfef9;
+  padding: 10px;
+  transition: color 0.5s ease;
 }
 a:hover {
-	color: #FF6B6B;
-	transition: color 0.5s ease;
+  color: #ff6b6b;
+  transition: color 0.5s ease;
 }
-ul, li {
-	list-style: none;
-	margin: 40px 0 0;
-	padding: 0;
+ul,
+li {
+  list-style: none;
+  margin: 40px 0 0;
+  padding: 0;
 }
 ul {
-	margin: 20px 0 0;
+  margin: 20px 0 0;
 }
 li {
-	display: inline-block;
+  display: inline-block;
 }
 
 @media screen and (max-width: 319px) {
-	h1 {
-		font-size: 28pt;
-	}
+  h1 {
+    font-size: 28pt;
+  }
 }
